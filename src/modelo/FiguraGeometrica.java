@@ -9,5 +9,9 @@ package modelo;
  * @author HP
  */
 public interface FiguraGeometrica {
+    //DECLARAR CONSTANTES -> final
+    public final double PI= 3.1416;
+    public void area();
+    public double perimetro();
     
 }
